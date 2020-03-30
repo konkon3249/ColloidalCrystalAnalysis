@@ -27,28 +27,31 @@ https://ai-inter1.com/python-install/
 
 ### Python環境の作成
 Anacondaを導入できたらAnacondaPromptを起動してください。  
+  
 <img src='./img/fig1.png'>  
+  
 コマンドプロンプトが開くので、以下のように入力してください。  
 
 ```
 conda create -n "好きな名前"
 ```
-
+  
 <img src='./img/fig2.png'>  
+  
 "好きな名前"が新しい環境の名前になります。画像では"colloid"です。  
 エンターを押すとy/nと確認されるのでyを押してエンターしてください。  
 しばらくすればcolloidという名前のPython環境が新しく構築されます。  
 
-### 色々とインストール
-このようにできた環境にはPythonしか入ってないので、必要なものをインストールします。
-まず、以下のように入力して環境を起動します。
+### 色々とインストール  
+このようにできた環境にはPythonしか入ってないので、必要なものをインストールします。  
+まず、以下のように入力して環境を起動します。  
 
 ```
 activate "環境名"
 ```
 
-今回は activate colloid でcolloid という名前の環境が起動します。
-そうしたら、以下のように入力してエンターしてください。
+今回は activate colloid でcolloid という名前の環境が起動します。  
+そうしたら、以下のように入力してエンターしてください。  
 
 ```
 pip install numpy scipy scikit-learn scikit-image tqdm opencv-python notebook widgetsnbextension
@@ -58,12 +61,12 @@ pip install numpy scipy scikit-learn scikit-image tqdm opencv-python notebook wi
 問題が起きたら権限当たりの問題だと思うので、Anaconda Promptを管理者権限で起動してからもう一度やってください。  
 それでもうまくいかない場合は、エラーメッセージを読んで臨機応変に対応してください。  
 
-### Jupyter-notebookのエクステンションを有効化
+### Jupyter-notebookのエクステンションを有効化  
 
-インストールがうまくいったら、以下のように入力して実行してください。
+インストールがうまくいったら、以下のように入力して実行してください。  
 
 ```
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
-
+  
 Jupyter-notebookのextentionを有効化する呪文です。
