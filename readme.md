@@ -70,3 +70,23 @@ jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
   
 Jupyter-notebookのextentionを有効化する呪文です。
+
+### Jupyter-notebookの起動
+Anaconda Pronptで以下のように実行するとJupyter-notebookが起動します。
+```
+jupyter-notebook
+```
+Jupyter-notebookは、普段使っているブラウザで開くはずです。  
+Internet Explorer (IE) だと多分動きません。ChromeかEdgeかFirefoxにしてください。  
+起動中はコンソールがこんな感じになります。  
+<img src='./img/fig3.png'>  
+ここでCtrl+Cで閉じます。ふつうにコンソールを終了してもOK。  
+  
+開いた画面からダウンロードして解凍したこのリポジトリを頑張って探してください。  
+.ipynbの拡張子で表示されているファイルが解析用のノートブックです。  
+頑張って解読してね！  
+
+### Homcloudの導入
+力尽きました。そのうち書くかも。  
+一応以下の公式ホームページの通りやればできますが、仮想環境にvenvを使っているため、実行ファイルはAnacondaのenvフォルダ内の適当な場所に保存する必要があります。  
+[Homcloud - Windows 10 64bitマシンでのインストール](http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/homcloud/install-guide/install_guide_for_Windows.html)  
