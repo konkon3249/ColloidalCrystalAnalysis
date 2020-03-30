@@ -14,6 +14,11 @@ E-mail: ishikawa@unno.material.nagoya-u.ac.jp
 1～3の順に読み進めていけば、動画からの画像解析の一連の流れがわかるようになっています。  
 なっているはずです(願望)。
 
+## ダウンロード方法
+Crone or downloadからダウンロードできます。  
+<img src='./img/fig4.png'>  
+zip形式なので解凍して、適当なところに置いてください。  
+
 ## 環境構築の方法
 ### Anacondaのインストール
 Pythonのインストールには、Anacondaを使うのが便利です。  
