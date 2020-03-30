@@ -18,6 +18,7 @@ E-mail: ishikawa@unno.material.nagoya-u.ac.jp
 Crone or downloadからダウンロードできます。  
 <img src='./img/fig4.png'>  
 zip形式なので解凍して、適当なところに置いてください。  
+解析用の動画(0.5%2.5μmPS_100Hz_8Vp-p_short_doublespeed.avi)は入ってないので、同一ディレクトリに用意してください。  
 
 ## 環境構築の方法
 ### Anacondaのインストール
