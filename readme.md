@@ -88,5 +88,6 @@ Internet Explorer (IE) だと多分動きません。ChromeかEdgeかFirefoxにしてください。
 
 ### Homcloudの導入
 力尽きました。そのうち書くかも。  
-一応以下の公式ホームページの通りやればできますが、仮想環境にvenvを使っているため、実行ファイルはAnacondaのenvフォルダ内の適当な場所に保存する必要があります。  
+一応以下の公式ホームページの通りやればできますが、仮想環境にvenvを使っているため、  
+実行ファイルはAnacondaのenvフォルダ内の適当な場所に保存する必要があります。  
 [Homcloud - Windows 10 64bitマシンでのインストール](http://www.wpi-aimr.tohoku.ac.jp/hiraoka_labo/homcloud/install-guide/install_guide_for_Windows.html)  
